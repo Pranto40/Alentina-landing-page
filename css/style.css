@@ -297,7 +297,7 @@ section{
     padding-bottom: 10rem;
 }
 .Contact .images{
-    flex: 1 1 42rem; 
+    flex: 1 1 19rem; 
 }
 .Contact .images .img_c{
     display: flex;
@@ -424,4 +424,131 @@ section{
 .testimonial .feed_back02 span{
     font-size: 1.8rem;
     color: #c1bdad;
+}
+
+/* newsletter section */
+
+.newsletter {
+	position: relative;
+	margin-bottom: -13rem;
+	margin-top: 6rem;
+}
+.newsletter .newsletter_content {
+	background: #d50a51;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 2rem 0;
+	border-radius: 6rem;
+}
+.newsletter .newsletter_content .news_text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.newsletter .newsletter_content .news_text .icon {
+	margin-right: 1rem;
+}
+.newsletter .newsletter_content .news_text h1{
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: .6rem;
+}
+.newsletter .newsletter_content .news_text p {
+	font-size: 1.4rem;
+	color: #fff;
+	letter-spacing: 0;
+	word-spacing: .4rem;
+}
+.newsletter .newsletter_content .news_input input {
+	padding: .5rem;
+	border: 1px solid #fff;
+	background: #d50a51;
+	color: #fff;
+    margin-left: 1rem;
+}
+.newsletter .newsletter_content .news_input {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.newsletter .newsletter_content .news_input .input_img {
+	width: 4rem;
+	height: 4rem;
+	line-height: 5;
+	border: 1px solid #fff;
+    text-align: center;
+}
+.newsletter .newsletter_content .news_input .input_img img{
+    width: 50%;
+}
+
+/* footer section */
+
+.footer {
+	background: #fadbe9;
+	margin-top: 6rem;
+}
+.footer .heading {
+	text-align: center;
+	padding-bottom: 5rem;
+	margin-top: 9rem;
+}
+.footer .ft_content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	grid-gap: 2rem;
+	text-align: center;
+}
+.footer .ft_content .footer_content i {
+	font-size: 2.5rem;
+	background: #d50a51;
+	height: 5rem;
+	width: 5rem;
+	line-height: 5rem;
+	border-radius: 50%;
+	color: #fff;
+	margin-bottom: 2rem;
+}
+.footer .ft_content .footer_content h1 {
+	font-size: 1.6rem;
+	color: #444;
+	margin-bottom: .5rem;
+}
+.footer .ft_content .footer_content h2{
+    font-size: 1.6rem;
+    color: #444;
+}
+.fllow {
+	text-align: center;
+	padding-top: 5rem;
+}
+.footer .fllow h1{
+    font-size: 2rem;
+    color: #d50a51;
+    padding-bottom: 1.5rem;
+}
+.footer .fllow i {
+	font-size: 1.6rem;
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
+	margin: 0 .5rem;
+	border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+}
+.footer .fllow i:hover{
+    color: #fff;
+    background: #d50a51;
+}
+.footer .footer_buttom {
+	font-size: 1.6rem;
+	text-align: center;
+	padding-top: 3rem;
+}
+.footer .footer_buttom span {
+	color: #d50a51;
+	line-height: 3;
 }

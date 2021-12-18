@@ -45,6 +45,14 @@
     .header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
+    .newsletter .newsletter_content .news_text {
+        padding-bottom: 2rem;
+    }
+    .newsletter {
+        position: relative;
+        margin-bottom: -16rem;
+        margin-top: 5rem;
+    }
 }
 
 @media (max-width: 425px){
@@ -56,4 +64,9 @@
         font-size: 50%;
     }
 
+}
+@media (max-width: 500px){
+    .newsletter .newsletter_content {
+        border-radius: 0rem;
+    }
 }
