@@ -447,6 +447,7 @@ section{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+    flex: 1 1 42rem;
 }
 .newsletter .newsletter_content .news_text .icon {
 	margin-right: 1rem;
@@ -462,7 +463,8 @@ section{
 	letter-spacing: 0;
 	word-spacing: .4rem;
 }
-.newsletter .newsletter_content .news_input input {
+
+/* .newsletter .newsletter_content .news_input input {
 	padding: .5rem;
 	border: 1px solid #fff;
 	background: #d50a51;
@@ -483,6 +485,46 @@ section{
 }
 .newsletter .newsletter_content .news_input .input_img img{
     width: 50%;
+} */
+
+
+.input_boxs {
+    position: relative;
+    flex: 1 1 42rem;
+}
+.input_boxs input:first-child {
+ min-width: 30vw;
+  padding: 2rem;
+  border: none;
+  font-family: oswald;
+  letter-spacing: 1;
+  border-radius: 50rem;
+  font-size: 1.6rem;
+  color: #d50a51;
+}
+
+#subscribe_submit {
+	padding: 1.5rem;
+	border: none;
+	color: #fff;
+	background: #d50a51;
+	width: 12.5rem;
+	border-radius: 50rem;
+	position: absolute;
+	top: .2rem;
+	right: 13.2rem;
+	font-weight: 800;
+	letter-spacing: 1;
+	font-size: 1.6rem;
+	position: relative;
+	text-align: left;
+}
+.input_boxs img {
+	position: absolute;
+	left: 52rem;
+	right: 0;
+	width: 3.5%;
+	top: 1.4rem;
 }
 
 /* footer section */
