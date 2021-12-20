@@ -464,36 +464,19 @@ section{
 	word-spacing: .4rem;
 }
 
-/* .newsletter .newsletter_content .news_input input {
-	padding: .5rem;
-	border: 1px solid #fff;
-	background: #d50a51;
-	color: #fff;
-    margin-left: 1rem;
+.input{
+	flex: 1 1 42rem;
+	text-align: center;
 }
-.newsletter .newsletter_content .news_input {
+.input_box {
 	display: flex;
-	align-content: center;
+	align-items: center;
 	justify-content: center;
-}
-.newsletter .newsletter_content .news_input .input_img {
-	width: 4rem;
-	height: 4rem;
-	line-height: 5;
-	border: 1px solid #fff;
-    text-align: center;
-}
-.newsletter .newsletter_content .news_input .input_img img{
-    width: 50%;
-} */
-
-
-.input_boxs {
     position: relative;
-    flex: 1 1 42rem;
 }
-.input_boxs input:first-child {
- min-width: 30vw;
+
+.input .input_box .email{
+  width: 68%;
   padding: 2rem;
   border: none;
   font-family: oswald;
@@ -503,29 +486,26 @@ section{
   color: #d50a51;
 }
 
-#subscribe_submit {
+.input .input_box .subscribe_submit {
 	padding: 1.5rem;
 	border: none;
 	color: #fff;
 	background: #d50a51;
 	width: 12.5rem;
 	border-radius: 50rem;
-	position: absolute;
-	top: .2rem;
-	right: 13.2rem;
+	top: .4rem;
+	right: 11rem;
 	font-weight: 800;
 	letter-spacing: 1;
 	font-size: 1.6rem;
-	position: relative;
+	position: absolute;
 	text-align: left;
 }
-.input_boxs img {
-	position: absolute;
-	left: 52rem;
-	right: 0;
-	width: 3.5%;
-	top: 1.4rem;
+.input .input_box .subscribe_submit i {
+	font-size: 2rem;
+	margin-left: 2rem;
 }
+
 
 /* footer section */
 

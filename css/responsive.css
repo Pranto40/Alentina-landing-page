@@ -11,6 +11,12 @@
     .Contact .images .img_c .images_card {
         flex: 1 1 29rem;
     }
+    .input_boxs {
+        left: 10rem;
+    }
+    .input .input_box .subscribe_submit {
+        right: 7.6rem;
+    }
 } 
 
 @media (max-width: 768px){
@@ -55,6 +61,20 @@
     }
 }
 
+@media (max-width: 580px){
+    .input .input_box .email {
+        width: 73%;
+    }
+    .input .input_box .subscribe_submit {
+        right: 8rem;
+    }
+}
+@media (max-width: 500px){
+    .input .input_box .subscribe_submit {
+        right: 6rem;
+    }
+}
+
 @media (max-width: 425px){
     
     section{
@@ -62,6 +82,12 @@
     }
     html{
         font-size: 50%;
+    }
+    .input .input_box .email {
+        width: 73%;
+    }
+    .input .input_box .subscribe_submit {
+        right: 8rem;
     }
 
 }
