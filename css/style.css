@@ -464,47 +464,33 @@ section{
 	word-spacing: .4rem;
 }
 
-.input{
+.search_box{
 	flex: 1 1 42rem;
 	text-align: center;
 }
-.input_box {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-    position: relative;
-}
-
-.input .input_box .email{
-  width: 68%;
-  padding: 2rem;
-  border: none;
-  font-family: oswald;
-  letter-spacing: 1;
-  border-radius: 50rem;
-  font-size: 1.6rem;
-  color: #d50a51;
-}
-
-.input .input_box .subscribe_submit {
-	padding: 1.5rem;
+.search_box .search input {
 	border: none;
+	padding: 2rem;
+	outline: none;
+    border-radius: 50rem;
+    width: 67%;
+}
+.search_box .search .search_bar{
+	width: calc(100% -.5rem);
+}
+.search_box .search .search-btn {
+	width: 10rem;
+	cursor: pointer;
 	color: #fff;
+	margin-left: -10.6rem;
+	padding: 1.6rem 0;
 	background: #d50a51;
-	width: 12.5rem;
-	border-radius: 50rem;
-	top: .4rem;
-	right: 11rem;
-	font-weight: 800;
-	letter-spacing: 1;
-	font-size: 1.6rem;
-	position: absolute;
-	text-align: left;
+    background-image: linear-gradient(to right, #d50a51, #f3b29d);
 }
-.input .input_box .subscribe_submit i {
-	font-size: 2rem;
-	margin-left: 2rem;
-}
+.search_box .search .search-btn:hover{
+    background-image: linear-gradient(to left, #d50a51, #FFCCBB);
+} 
+
 
 
 /* footer section */
